@@ -50,19 +50,19 @@ wxPage.init({
     pop(){
       this.data.arr.pop()
       this.setData({
-        arr: arr
+        arr: this.data.arr
       })
     },
     shift(){
       this.data.arr.shift()
       this.setData({
-        arr: arr
+        arr: this.data.arr
       })
     },
     unshift(){
       this.data.arr.unshift()
       this.setData({
-        arr: arr
+        arr: this.data.arr
       })
     }
   })
