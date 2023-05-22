@@ -57,7 +57,7 @@ WxRequest({url:'xxxxx'}).then(res=>{
 
  ### interceptors
 
- - 拦截器分为`请求拦截器`和`相应拦截器`
+ - 拦截器分为`请求拦截器`和`响应拦截器`
 
    例：
 
